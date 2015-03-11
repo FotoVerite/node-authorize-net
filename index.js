@@ -1,5 +1,7 @@
-var AuthorizeGateway = require('./lib/AuthorizeNetGateway.js');
+'use strict';
 
-module.exports = function gatewayFactory(conf) {
-    return new AuthorizeGateway(conf);
+var AuthorizeGateway = require('./lib/authNetGateway.js');
+
+module.exports = function authorizeNet(conf) {
+  return new AuthorizeGateway(conf);
 };

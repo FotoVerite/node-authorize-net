@@ -1,4 +1,5 @@
 module.exports = {
-    "API_LOGIN_ID": "2msN9nrBG8K",
-    "TRANSACTION_KEY": "43jNykM6kC8v87Nb"
+  "API_LOGIN_ID": "9n23RN6eB7",
+  "TRANSACTION_KEY": "23mNEW77y28WBTq4",
+  'testMode': true
 };
